@@ -9,10 +9,12 @@ export default function Appli() {
     <div className="Appli">
       <Entete />
       <ElementsListe />
-      <Fab className="fab">
-        <AddIcon />
-      </Fab>
-        {/* Gabarit de base d'une Application React */}
+      <div className="fabConteneur">
+        <Fab className="fab">
+          <AddIcon />
+        </Fab >
+          {/* Gabarit de base d'une Application React */}
+      </div>
     </div>
   );
 }
